@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		089C7FA61EA07E9D00BEF607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FA51EA07E9D00BEF607 /* main.m */; };
 		089C7FA91EA07E9D00BEF607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FA81EA07E9D00BEF607 /* AppDelegate.m */; };
-		089C7FAC1EA07E9D00BEF607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FAB1EA07E9D00BEF607 /* ViewController.m */; };
-		089C7FAF1EA07E9D00BEF607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FAD1EA07E9D00BEF607 /* Main.storyboard */; };
-		089C7FB11EA07E9D00BEF607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FB01EA07E9D00BEF607 /* Assets.xcassets */; };
-		089C7FB41EA07E9D00BEF607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FB21EA07E9D00BEF607 /* LaunchScreen.storyboard */; };
 		089C7FBF1EA07E9D00BEF607 /* YWLoopScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FBE1EA07E9D00BEF607 /* YWLoopScrollViewDemoTests.m */; };
 		089C7FCA1EA07E9D00BEF607 /* YWLoopScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FC91EA07E9D00BEF607 /* YWLoopScrollViewDemoUITests.m */; };
+		089C7FF81EA07F2700BEF607 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FE21EA07F2700BEF607 /* CommonViewController.m */; };
+		089C7FF91EA07F2700BEF607 /* AutoLayoutObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FE71EA07F2700BEF607 /* AutoLayoutObject.m */; };
+		089C7FFA1EA07F2700BEF607 /* UIView+AutoLayoutAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FE91EA07F2700BEF607 /* UIView+AutoLayoutAttribute.m */; };
+		089C7FFC1EA07F2700BEF607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FEF1EA07F2700BEF607 /* Assets.xcassets */; };
+		089C7FFD1EA07F2700BEF607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FF01EA07F2700BEF607 /* LaunchScreen.storyboard */; };
+		089C7FFE1EA07F2700BEF607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FF21EA07F2700BEF607 /* Main.storyboard */; };
+		089C7FFF1EA07F2700BEF607 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 089C7FF41EA07F2700BEF607 /* Info.plist */; };
+		089C80001EA07F2700BEF607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C7FF51EA07F2700BEF607 /* main.m */; };
+		089C80031EA07F4700BEF607 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C80021EA07F4700BEF607 /* HomeViewController.m */; };
+		089C80071EA0805C00BEF607 /* YWLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C80061EA0805C00BEF607 /* YWLoopScrollView.m */; };
+		089C800D1EA0EB4800BEF607 /* img01.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C80081EA0EB4800BEF607 /* img01.jpeg */; };
+		089C800E1EA0EB4800BEF607 /* img03.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C80091EA0EB4800BEF607 /* img03.jpeg */; };
+		089C800F1EA0EB4800BEF607 /* img04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C800A1EA0EB4800BEF607 /* img04.jpeg */; };
+		089C80101EA0EB4800BEF607 /* img02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C800B1EA0EB4800BEF607 /* img02.jpeg */; };
+		089C80111EA0EB4800BEF607 /* img05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C800C1EA0EB4800BEF607 /* img05.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +46,37 @@
 
 /* Begin PBXFileReference section */
 		089C7FA11EA07E9D00BEF607 /* YWLoopScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWLoopScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		089C7FA51EA07E9D00BEF607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		089C7FA71EA07E9D00BEF607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		089C7FA81EA07E9D00BEF607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		089C7FAA1EA07E9D00BEF607 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		089C7FAB1EA07E9D00BEF607 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		089C7FAE1EA07E9D00BEF607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		089C7FB01EA07E9D00BEF607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		089C7FB31EA07E9D00BEF607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		089C7FB51EA07E9D00BEF607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		089C7FBA1EA07E9D00BEF607 /* YWLoopScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLoopScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		089C7FBE1EA07E9D00BEF607 /* YWLoopScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLoopScrollViewDemoTests.m; sourceTree = "<group>"; };
 		089C7FC01EA07E9D00BEF607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		089C7FC51EA07E9D00BEF607 /* YWLoopScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWLoopScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		089C7FC91EA07E9D00BEF607 /* YWLoopScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWLoopScrollViewDemoUITests.m; sourceTree = "<group>"; };
 		089C7FCB1EA07E9D00BEF607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089C7FE11EA07F2700BEF607 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		089C7FE21EA07F2700BEF607 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		089C7FE31EA07F2700BEF607 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		089C7FE61EA07F2700BEF607 /* AutoLayoutObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutObject.h; sourceTree = "<group>"; };
+		089C7FE71EA07F2700BEF607 /* AutoLayoutObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutObject.m; sourceTree = "<group>"; };
+		089C7FE81EA07F2700BEF607 /* UIView+AutoLayoutAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayoutAttribute.h"; sourceTree = "<group>"; };
+		089C7FE91EA07F2700BEF607 /* UIView+AutoLayoutAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayoutAttribute.m"; sourceTree = "<group>"; };
+		089C7FEA1EA07F2700BEF607 /* YWAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWAutoLayout.h; sourceTree = "<group>"; };
+		089C7FEF1EA07F2700BEF607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		089C7FF11EA07F2700BEF607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		089C7FF31EA07F2700BEF607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		089C7FF41EA07F2700BEF607 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089C7FF51EA07F2700BEF607 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		089C7FF61EA07F2700BEF607 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		089C80011EA07F4700BEF607 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		089C80021EA07F4700BEF607 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		089C80051EA0805C00BEF607 /* YWLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWLoopScrollView.h; sourceTree = "<group>"; };
+		089C80061EA0805C00BEF607 /* YWLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWLoopScrollView.m; sourceTree = "<group>"; };
+		089C80081EA0EB4800BEF607 /* img01.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img01.jpeg; sourceTree = "<group>"; };
+		089C80091EA0EB4800BEF607 /* img03.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img03.jpeg; sourceTree = "<group>"; };
+		089C800A1EA0EB4800BEF607 /* img04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img04.jpeg; sourceTree = "<group>"; };
+		089C800B1EA0EB4800BEF607 /* img02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img02.jpeg; sourceTree = "<group>"; };
+		089C800C1EA0EB4800BEF607 /* img05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img05.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +127,13 @@
 		089C7FA31EA07E9D00BEF607 /* YWLoopScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				089C7FD71EA07F2700BEF607 /* Function */,
+				089C7FDF1EA07F2700BEF607 /* Public */,
+				089C7FEE1EA07F2700BEF607 /* Supporting Files */,
 				089C7FA71EA07E9D00BEF607 /* AppDelegate.h */,
 				089C7FA81EA07E9D00BEF607 /* AppDelegate.m */,
-				089C7FAA1EA07E9D00BEF607 /* ViewController.h */,
-				089C7FAB1EA07E9D00BEF607 /* ViewController.m */,
-				089C7FAD1EA07E9D00BEF607 /* Main.storyboard */,
-				089C7FB01EA07E9D00BEF607 /* Assets.xcassets */,
-				089C7FB21EA07E9D00BEF607 /* LaunchScreen.storyboard */,
-				089C7FB51EA07E9D00BEF607 /* Info.plist */,
-				089C7FA41EA07E9D00BEF607 /* Supporting Files */,
 			);
 			path = YWLoopScrollViewDemo;
-			sourceTree = "<group>";
-		};
-		089C7FA41EA07E9D00BEF607 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				089C7FA51EA07E9D00BEF607 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		089C7FBD1EA07E9D00BEF607 /* YWLoopScrollViewDemoTests */ = {
@@ -138,6 +152,122 @@
 				089C7FCB1EA07E9D00BEF607 /* Info.plist */,
 			);
 			path = YWLoopScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		089C7FD71EA07F2700BEF607 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				089C7FD81EA07F2700BEF607 /* Home */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		089C7FD81EA07F2700BEF607 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				089C7FD91EA07F2700BEF607 /* CHome */,
+				089C7FDC1EA07F2700BEF607 /* MHome */,
+				089C7FDD1EA07F2700BEF607 /* RHome */,
+				089C7FDE1EA07F2700BEF607 /* VHome */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		089C7FD91EA07F2700BEF607 /* CHome */ = {
+			isa = PBXGroup;
+			children = (
+				089C80011EA07F4700BEF607 /* HomeViewController.h */,
+				089C80021EA07F4700BEF607 /* HomeViewController.m */,
+			);
+			path = CHome;
+			sourceTree = "<group>";
+		};
+		089C7FDC1EA07F2700BEF607 /* MHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MHome;
+			sourceTree = "<group>";
+		};
+		089C7FDD1EA07F2700BEF607 /* RHome */ = {
+			isa = PBXGroup;
+			children = (
+				089C80081EA0EB4800BEF607 /* img01.jpeg */,
+				089C80091EA0EB4800BEF607 /* img03.jpeg */,
+				089C800A1EA0EB4800BEF607 /* img04.jpeg */,
+				089C800B1EA0EB4800BEF607 /* img02.jpeg */,
+				089C800C1EA0EB4800BEF607 /* img05.jpeg */,
+			);
+			path = RHome;
+			sourceTree = "<group>";
+		};
+		089C7FDE1EA07F2700BEF607 /* VHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VHome;
+			sourceTree = "<group>";
+		};
+		089C7FDF1EA07F2700BEF607 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				089C7FE01EA07F2700BEF607 /* PublicCommon */,
+				089C7FE41EA07F2700BEF607 /* PublicFunction */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		089C7FE01EA07F2700BEF607 /* PublicCommon */ = {
+			isa = PBXGroup;
+			children = (
+				089C7FE11EA07F2700BEF607 /* CommonViewController.h */,
+				089C7FE21EA07F2700BEF607 /* CommonViewController.m */,
+				089C7FE31EA07F2700BEF607 /* PublicDefine.h */,
+			);
+			path = PublicCommon;
+			sourceTree = "<group>";
+		};
+		089C7FE41EA07F2700BEF607 /* PublicFunction */ = {
+			isa = PBXGroup;
+			children = (
+				089C80041EA0803000BEF607 /* YWLoopScrollView */,
+				089C7FE51EA07F2700BEF607 /* YWAutoLayout */,
+			);
+			path = PublicFunction;
+			sourceTree = "<group>";
+		};
+		089C7FE51EA07F2700BEF607 /* YWAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				089C7FE61EA07F2700BEF607 /* AutoLayoutObject.h */,
+				089C7FE71EA07F2700BEF607 /* AutoLayoutObject.m */,
+				089C7FE81EA07F2700BEF607 /* UIView+AutoLayoutAttribute.h */,
+				089C7FE91EA07F2700BEF607 /* UIView+AutoLayoutAttribute.m */,
+				089C7FEA1EA07F2700BEF607 /* YWAutoLayout.h */,
+			);
+			path = YWAutoLayout;
+			sourceTree = "<group>";
+		};
+		089C7FEE1EA07F2700BEF607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				089C7FEF1EA07F2700BEF607 /* Assets.xcassets */,
+				089C7FF01EA07F2700BEF607 /* LaunchScreen.storyboard */,
+				089C7FF21EA07F2700BEF607 /* Main.storyboard */,
+				089C7FF41EA07F2700BEF607 /* Info.plist */,
+				089C7FF51EA07F2700BEF607 /* main.m */,
+				089C7FF61EA07F2700BEF607 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		089C80041EA0803000BEF607 /* YWLoopScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				089C80051EA0805C00BEF607 /* YWLoopScrollView.h */,
+				089C80061EA0805C00BEF607 /* YWLoopScrollView.m */,
+			);
+			path = YWLoopScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +376,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089C7FB41EA07E9D00BEF607 /* LaunchScreen.storyboard in Resources */,
-				089C7FB11EA07E9D00BEF607 /* Assets.xcassets in Resources */,
-				089C7FAF1EA07E9D00BEF607 /* Main.storyboard in Resources */,
+				089C80111EA0EB4800BEF607 /* img05.jpeg in Resources */,
+				089C7FFF1EA07F2700BEF607 /* Info.plist in Resources */,
+				089C800F1EA0EB4800BEF607 /* img04.jpeg in Resources */,
+				089C800D1EA0EB4800BEF607 /* img01.jpeg in Resources */,
+				089C7FFE1EA07F2700BEF607 /* Main.storyboard in Resources */,
+				089C7FFC1EA07F2700BEF607 /* Assets.xcassets in Resources */,
+				089C80101EA0EB4800BEF607 /* img02.jpeg in Resources */,
+				089C800E1EA0EB4800BEF607 /* img03.jpeg in Resources */,
+				089C7FFD1EA07F2700BEF607 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +409,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				089C7FAC1EA07E9D00BEF607 /* ViewController.m in Sources */,
+				089C80071EA0805C00BEF607 /* YWLoopScrollView.m in Sources */,
 				089C7FA91EA07E9D00BEF607 /* AppDelegate.m in Sources */,
-				089C7FA61EA07E9D00BEF607 /* main.m in Sources */,
+				089C7FF81EA07F2700BEF607 /* CommonViewController.m in Sources */,
+				089C7FF91EA07F2700BEF607 /* AutoLayoutObject.m in Sources */,
+				089C80001EA07F2700BEF607 /* main.m in Sources */,
+				089C80031EA07F4700BEF607 /* HomeViewController.m in Sources */,
+				089C7FFA1EA07F2700BEF607 /* UIView+AutoLayoutAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +451,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		089C7FAD1EA07E9D00BEF607 /* Main.storyboard */ = {
+		089C7FF01EA07F2700BEF607 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C7FAE1EA07E9D00BEF607 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		089C7FB21EA07E9D00BEF607 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				089C7FB31EA07E9D00BEF607 /* Base */,
+				089C7FF11EA07F2700BEF607 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		089C7FF21EA07F2700BEF607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C7FF31EA07F2700BEF607 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,7 +562,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YWLoopScrollViewDemo/Info.plist;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangyawen/Documents/TEMP/YWLoopScrollViewDemo/YWLoopScrollViewDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/wangyawen/Documents/TEMP/YWLoopScrollViewDemo/YWLoopScrollViewDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.YWLoopScrollViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +576,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YWLoopScrollViewDemo/Info.plist;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangyawen/Documents/TEMP/YWLoopScrollViewDemo/YWLoopScrollViewDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "/Users/wangyawen/Documents/TEMP/YWLoopScrollViewDemo/YWLoopScrollViewDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.YWLoopScrollViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

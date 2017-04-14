@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  YWLoopScrollViewDemo
 //
 //  Created by 王亚文 on 2017/4/14.
 //  Copyright © 2017年 wyw. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CommonViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface HomeViewController : CommonViewController
 
 @end
-

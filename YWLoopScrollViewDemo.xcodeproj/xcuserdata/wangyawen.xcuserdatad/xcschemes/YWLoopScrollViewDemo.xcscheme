@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "089C7FA01EA07E9D00BEF607"
+               BuildableName = "YWLoopScrollViewDemo.app"
+               BlueprintName = "YWLoopScrollViewDemo"
+               ReferencedContainer = "container:YWLoopScrollViewDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "089C7FB91EA07E9D00BEF607"
+               BuildableName = "YWLoopScrollViewDemoTests.xctest"
+               BlueprintName = "YWLoopScrollViewDemoTests"
+               ReferencedContainer = "container:YWLoopScrollViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "089C7FC41EA07E9D00BEF607"
+               BuildableName = "YWLoopScrollViewDemoUITests.xctest"
+               BlueprintName = "YWLoopScrollViewDemoUITests"
+               ReferencedContainer = "container:YWLoopScrollViewDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "089C7FA01EA07E9D00BEF607"
+            BuildableName = "YWLoopScrollViewDemo.app"
+            BlueprintName = "YWLoopScrollViewDemo"
+            ReferencedContainer = "container:YWLoopScrollViewDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "089C7FA01EA07E9D00BEF607"
+            BuildableName = "YWLoopScrollViewDemo.app"
+            BlueprintName = "YWLoopScrollViewDemo"
+            ReferencedContainer = "container:YWLoopScrollViewDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "089C7FA01EA07E9D00BEF607"
+            BuildableName = "YWLoopScrollViewDemo.app"
+            BlueprintName = "YWLoopScrollViewDemo"
+            ReferencedContainer = "container:YWLoopScrollViewDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
