@@ -11,9 +11,8 @@
 @class YWLoopScrollView;
 @protocol YWLoopScrollViewDelegate <NSObject>
 
-- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView currentPageIndex:(NSInteger)index;
-
-- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView didSelectedPageIndex:(NSInteger)index;
+- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView currentPageIndex:(NSInteger)index image:(id)image;
+- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView didSelectedPageIndex:(NSInteger)index image:(id)image;
 
 @end
 

@@ -25,6 +25,7 @@
 		089C800F1EA0EB4800BEF607 /* img04.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C800A1EA0EB4800BEF607 /* img04.jpeg */; };
 		089C80101EA0EB4800BEF607 /* img02.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C800B1EA0EB4800BEF607 /* img02.jpeg */; };
 		089C80111EA0EB4800BEF607 /* img05.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 089C800C1EA0EB4800BEF607 /* img05.jpeg */; };
+		089C80171EA2908D00BEF607 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 089C80161EA2908D00BEF607 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		089C800A1EA0EB4800BEF607 /* img04.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img04.jpeg; sourceTree = "<group>"; };
 		089C800B1EA0EB4800BEF607 /* img02.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img02.jpeg; sourceTree = "<group>"; };
 		089C800C1EA0EB4800BEF607 /* img05.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img05.jpeg; sourceTree = "<group>"; };
+		089C80151EA2908D00BEF607 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		089C80161EA2908D00BEF607 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 		089C7FD91EA07F2700BEF607 /* CHome */ = {
 			isa = PBXGroup;
 			children = (
+				089C80151EA2908D00BEF607 /* SecondViewController.h */,
+				089C80161EA2908D00BEF607 /* SecondViewController.m */,
 				089C80011EA07F4700BEF607 /* HomeViewController.h */,
 				089C80021EA07F4700BEF607 /* HomeViewController.m */,
 			);
@@ -413,6 +418,7 @@
 				089C7FA91EA07E9D00BEF607 /* AppDelegate.m in Sources */,
 				089C7FF81EA07F2700BEF607 /* CommonViewController.m in Sources */,
 				089C7FF91EA07F2700BEF607 /* AutoLayoutObject.m in Sources */,
+				089C80171EA2908D00BEF607 /* SecondViewController.m in Sources */,
 				089C80001EA07F2700BEF607 /* main.m in Sources */,
 				089C80031EA07F4700BEF607 /* HomeViewController.m in Sources */,
 				089C7FFA1EA07F2700BEF607 /* UIView+AutoLayoutAttribute.m in Sources */,
@@ -651,6 +657,7 @@
 				089C7FD01EA07E9D00BEF607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		089C7FD11EA07E9D00BEF607 /* Build configuration list for PBXNativeTarget "YWLoopScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +666,7 @@
 				089C7FD31EA07E9D00BEF607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		089C7FD41EA07E9D00BEF607 /* Build configuration list for PBXNativeTarget "YWLoopScrollViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +675,7 @@
 				089C7FD61EA07E9D00BEF607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

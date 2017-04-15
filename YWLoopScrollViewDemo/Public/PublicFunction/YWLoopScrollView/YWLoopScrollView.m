@@ -164,8 +164,9 @@ static NSString *loopCellId = @"loopCellId";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    if([self.delegate respondsToSelector:@selector(ywLoopScrollView:didSelectedPageIndex:)]){
-        [self.delegate ywLoopScrollView:self didSelectedPageIndex:indexPath.row];
+    NSInteger index = [self imageIndexFromRowIndex:indexPath.row];
+    if([self.delegate respondsToSelector:@selector(ywLoopScrollView:didSelectedPageIndex:image:)]){
+        [self.delegate ywLoopScrollView:self didSelectedPageIndex:indexPath.row image:_imagesArr[index]];
     }
 }
 
@@ -221,8 +222,8 @@ static NSString *loopCellId = @"loopCellId";
     NSLog(@"---❤%d---",(int)dataIndex);
     
     // callback
-    if([self.delegate respondsToSelector:@selector(ywLoopScrollView:currentPageIndex:)]){
-        [self.delegate ywLoopScrollView:self currentPageIndex:currentPage];
+    if([self.delegate respondsToSelector:@selector(ywLoopScrollView:currentPageIndex:image:)]){
+        [self.delegate ywLoopScrollView:self currentPageIndex:currentPage image:_imagesArr[currentPage]];
     }
 }
 
