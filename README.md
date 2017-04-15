@@ -22,15 +22,19 @@
 }
 
 #pragma mark - YWLoopScrollViewDelegate
-- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView currentPageIndex:(NSInteger)index
+- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView currentPageIndex:(NSInteger)index image:(id)image
 {
     NSLog(@"❤：currentPageIndex is %d", (int)index);
 }
 
-- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView didSelectedPageIndex:(NSInteger)index
+- (void)ywLoopScrollView:(YWLoopScrollView *)scrollView didSelectedPageIndex:(NSInteger)index image:(id)image
 {
     NSLog(@"❤：didSelectedPageIndex is %d", (int)index);
+    SecondViewController *secondVC = [SecondViewController new];
+    secondVC.image = image;
+    [self.navigationController pushViewController:secondVC animated:YES];
 }
+
 ```
 
 #### YWLoopScrollView.h接口：
